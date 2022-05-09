@@ -1,0 +1,17 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .product {
+        padding: 0;
+    }
+
+    .product-img {
+        height: 200px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .product-img {
+        height: 320px;
+    }
+}
