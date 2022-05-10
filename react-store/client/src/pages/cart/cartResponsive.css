@@ -1,0 +1,33 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .cart {
+        padding: 32px 4px; 
+    }
+
+    .cart-title {
+        font-size: 24px;
+    }
+
+    .cart-product {
+        flex-direction: column;
+    }
+
+    .cart-product__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-summary__item--total {
+        font-size: 20px;
+    }
+
+    .cart-product__delete {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+    }
+
+    .cart-shopping {
+        width: 100%;
+    }
+}

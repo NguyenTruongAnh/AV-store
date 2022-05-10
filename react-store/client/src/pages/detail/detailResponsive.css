@@ -1,0 +1,35 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .detail-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .detail-title {
+        font-size: 40px;
+    }
+
+    .detail-info {
+        margin-top: 16px;
+    }
+
+    .detail-price {
+        font-size: 32px;
+    }
+
+    .detail-control {
+        flex-direction: column;
+    }
+
+    .detail-control__container {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .detail-info {
+        padding: 0;
+    }
+}

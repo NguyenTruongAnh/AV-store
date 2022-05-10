@@ -1,0 +1,15 @@
+@media (max-width: 739px) {
+    .home-title {
+        font-size: 16px;
+    }
+
+    .home-title > span {
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    
+    .home-rating__info > h5 {
+        font-size: 16px;
+    }
+    
+}
