@@ -1,0 +1,15 @@
+/* Movile */
+@media (max-width: 739px) {
+    .profile-order__title {
+        font-size: 24px;
+    }
+
+    .profile-order__empty img {
+        width: 300px;
+    }
+
+    .profile-order__empty h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+}

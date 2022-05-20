@@ -1,0 +1,88 @@
+.register {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)), 
+        url("https://i.ytimg.com/vi/I7mipkm6IXM/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+.register-title {
+    font-size: 50px;
+}
+
+.register-form {
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-input {
+    padding: 8px 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+   margin: 0;
+}
+
+.register-input:focus {
+    border-color: var(--blue-color);
+}
+
+.register-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.register-btn:hover {
+    background-color: rgb(2, 104, 104);
+}
+
+.register-login-btn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-login-btn:hover {
+    background-color: red;
+}
+
+.register-login-btn {
+    color: white!important;
+}

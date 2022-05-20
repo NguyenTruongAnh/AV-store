@@ -1,0 +1,121 @@
+.product {
+    margin-top: 60px;
+    padding: 32px 40px;
+    flex: 1;
+}
+
+.product-title {
+    font-family: 'Lora', serif;
+}
+
+.product-create,
+.product-category {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid #777;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.product-create:hover {
+    background-color: #777;
+    text-decoration: none;
+    color: white;
+}
+
+.product-table__item {
+    font-family: 'Lora', serif;
+}
+
+.product-table__item-id {
+    font-weight: 600;
+    font-size: 18px;
+    color: #777;
+}
+
+.product-table__item-view {
+    display: flex;
+    align-items: center;
+}
+
+.product-table__item-view img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.product-table__item-view span {
+    line-height: 16px;
+    height: 32px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.product-table__item-status.in-stock {
+    color: #28a745;
+}
+
+.product-table__item-status.out-stock {
+    color: #dc3545;
+}
+
+.product-table__item-price {
+    font-size: 20px;
+    color: #888;
+}
+
+.product-table__item-control a {
+    text-decoration: none;
+}
+
+.product-table__item-control i {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product-table__item-control i:nth-child(1) {
+    margin-right: 12px;
+    color: #28a76f;
+}
+
+.product-table__item-control i:nth-child(1):hover {
+    color: #008f51;
+}
+
+.product-table__item-control i:nth-child(2) {
+    color: #e33545;
+}
+
+.product-table__item-control i:nth-child(2):hover {
+    color: #cf0216;
+}
+
+th {
+    background-color: white;
+}
+
+th:first-child,
+td:first-child {
+    position: sticky;
+    left: 0px;
+
+}
+
+td:first-child {
+    background-color: white;
+}

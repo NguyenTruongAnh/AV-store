@@ -1,0 +1,116 @@
+.create-product {
+    margin-top: 60px;
+    padding: 32px 40px;
+    flex: 1;
+}
+
+.create-product__title {
+    font-family: 'Lora', serif;
+}
+
+.create-product__back {
+    font-size: 18px;
+    color: blue;
+}
+
+.create-product__content {
+    padding: 32px 0;
+}
+
+.create-product__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.create-product__img-view {
+    width: 100%;
+}
+
+.create-product__img-file {
+    display: none;
+}
+
+.create-product__img-icon {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    top: calc(100% + 20px);
+    cursor: pointer;
+}
+
+.create-product__img-icon:hover {
+    color: #666;
+}
+
+.create-product__list {
+    padding: 0px 16px;
+    list-style: none;
+
+}
+
+.create-product__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.create-product__item > span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.create-product__item input,
+.create-product__item select,
+.create-product__item textarea {
+    padding: 4px 12px;
+    outline: none;
+    border: 2px solid #888;
+    border-radius: 8px;
+}
+
+.create-product__item input:focus,
+.create-product__item select:focus, 
+.create-product__item textarea:focus {
+    border-color: #80bdff;
+}
+
+.create-product__item ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 8px;
+}
+
+.create-product__item li {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 1px solid #888;
+}
+
+.create-product__item li span {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.create-product__item li span:hover {
+    color: red;
+}
+
+.create-product__confirm {
+    margin-top: 8px;
+    padding: 4px 20px;
+}

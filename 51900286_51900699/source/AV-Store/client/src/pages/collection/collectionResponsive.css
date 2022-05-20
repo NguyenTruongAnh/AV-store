@@ -1,0 +1,20 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .collection-title--lg {
+        margin-top: 20px;
+        font-size: 42px;
+    }
+
+    .collection-list {
+        margin-top: 120px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .collection-item__img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}

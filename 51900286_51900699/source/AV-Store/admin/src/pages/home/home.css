@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 60px);
+    padding-top: 60px;
+    flex: 1;
+    margin-top: 60px;
+    font-family: 'Lora', serif;
+}
+
+.home-title {
+    display: block;
+    font-size: 80px;
+    color: #999;
+}
+
+.home-sub-title {
+    font-size: 28px;
+    color: #999;
+}
+
+.home-founders {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.home-founder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 32px;
+}
+
+.home-founder img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.home-founder span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #777;
+}
+
