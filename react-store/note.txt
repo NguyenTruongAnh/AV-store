@@ -1,2 +1,0 @@
->>>> Thư viện giúp hash mật khẩu trong express:
-	- bcrypt
