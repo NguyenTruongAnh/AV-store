@@ -1,7 +1,3 @@
->>>> Thông tin thành viên:
-	1/ Nguyễn Võ Hoàng Vũ - 51900286
-	2/ Nguyễn Trường Anh - 51900699
-
 >>>> Hướng dẫn chạy source code:
 	1. Tại thư mục gốc chọn vào thư mục có tên là source.
 	2. Nhấp chọn vào thư mục có tên là AV-Store.
